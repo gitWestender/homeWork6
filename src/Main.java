@@ -89,7 +89,7 @@ public class Main {
 
             totalWithPenny = totalWithPenny + totalWithPenny / 100;
             totalWithPenny = totalWithPenny + moneyWithPenny;
-            total = totalWithPenny / 100;
+            total = (double)totalWithPenny / 100;
 
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
         }
